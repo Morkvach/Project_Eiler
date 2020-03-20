@@ -11,7 +11,7 @@ public class Numbers {
 			if (i % 3 == 0 || i % 5 == 0) {
 				Sum += i;
 			}
-			i++;
+			i++; 
 		}
 		return Sum;
 	}
