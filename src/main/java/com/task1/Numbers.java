@@ -7,11 +7,11 @@ package com.task1;
 public class Numbers {
 	public int ShowNumbs(int i) {
 		int Sum = 0;
-		while (i < 999) {
-			i++;
+		while (i < 10) {
 			if (i % 3 == 0 || i % 5 == 0) {
 				Sum += i;
 			}
+			i++;
 		}
 		return Sum;
 	}
@@ -19,6 +19,6 @@ public class Numbers {
 	public static void main(String[] args) {
 
 		Numbers r = new Numbers();
-		r.ShowNumbs(1);
+		r.ShowNumbs(2);
 	}
 }
