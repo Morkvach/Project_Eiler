@@ -7,7 +7,7 @@ package com.task1;
 public class Numbers {
 	public int ShowNumbs(int i) {
 		int Sum = 0;
-		while (i < 10) {
+		while (i < 1000) {
 			if (i % 3 == 0 || i % 5 == 0) {
 				Sum += i;
 			}
@@ -19,6 +19,6 @@ public class Numbers {
 	public static void main(String[] args) {
 
 		Numbers r = new Numbers();
-		r.ShowNumbs(2);
+		r.ShowNumbs(3);
 	}
 }
