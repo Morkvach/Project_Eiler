@@ -1,0 +1,23 @@
+package com.task2;
+
+/********************************************************************************************
+ *Найдите сумму всех четных элементов ряда Фибоначчи, которые не превышают четыре миллиона. *
+ ********************************************************************************************/
+
+public class Fibonacci {
+	public static void sum() {
+		int number0 = 1;
+		int number1 = 2;
+		int number2 = 0;
+		while (number2 < 100) {
+			number2 = number0 + number1;
+			number1 = number0;
+			number2 = number1;
+		}
+		System.out.println("test");
+	}
+	public static void main(String[] args) {
+		sum();
+
+	}
+}
